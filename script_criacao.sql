@@ -68,7 +68,7 @@ ALTER TABLE DIRETOR ADD CONSTRAINT diretor_cpf_diretor_fk FOREIGN KEY(cpf_direto
 CREATE TABLE FUNCIONARIO(
 
 	cpf_funcionario VARCHAR(11) NOT NULL,
-	cpf_coordenador VARCHAR(11) NOT NULL,
+	cpf_coordenador VARCHAR(11),
 	funcao VARCHAR(50) NOT NULL
 );
 
